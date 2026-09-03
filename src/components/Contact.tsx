@@ -1,7 +1,9 @@
 import React, { FormEvent, useState } from 'react';
+
 import '../assets/styles/Contact.scss';
 
 import emailjs from '@emailjs/browser';
+
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
@@ -26,7 +28,6 @@ function Contact() {
 
   const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
     setStatus('');
 
     const trimmedName = name.trim();
@@ -106,6 +107,7 @@ function Contact() {
             className="contact-form"
           >
             <div className="form-flex">
+              {/* Name */}
               <TextField
                 required
                 id="contact-name"
@@ -126,8 +128,24 @@ function Contact() {
                 disabled={isSending}
                 fullWidth
                 autoComplete="name"
+                sx={{
+                  '& .MuiInputBase-input': {
+                    color: '#ffffff',
+                  },
+                  '& .MuiInputLabel-root': {
+                    color: '#ffffff',
+                  },
+                  '& .MuiInputLabel-root.Mui-focused': {
+                    color: '#ffffff',
+                  },
+                  '& .MuiInputBase-input::placeholder': {
+                    color: '#ffffff',
+                    opacity: 0.6,
+                  },
+                }}
               />
 
+              {/* Email */}
               <TextField
                 required
                 id="contact-email"
@@ -154,9 +172,25 @@ function Contact() {
                 disabled={isSending}
                 fullWidth
                 autoComplete="email"
+                sx={{
+                  '& .MuiInputBase-input': {
+                    color: '#ffffff',
+                  },
+                  '& .MuiInputLabel-root': {
+                    color: '#ffffff',
+                  },
+                  '& .MuiInputLabel-root.Mui-focused': {
+                    color: '#ffffff',
+                  },
+                  '& .MuiInputBase-input::placeholder': {
+                    color: '#ffffff',
+                    opacity: 0.6,
+                  },
+                }}
               />
             </div>
 
+            {/* Message */}
             <TextField
               required
               id="contact-message"
@@ -179,8 +213,24 @@ function Contact() {
               }
               disabled={isSending}
               fullWidth
+              sx={{
+                '& .MuiInputBase-input': {
+                  color: '#ffffff',
+                },
+                '& .MuiInputLabel-root': {
+                  color: '#ffffff',
+                },
+                '& .MuiInputLabel-root.Mui-focused': {
+                  color: '#ffffff',
+                },
+                '& .MuiInputBase-input::placeholder': {
+                  color: '#ffffff',
+                  opacity: 0.6,
+                },
+              }}
             />
 
+            {/* Success message */}
             {status === 'success' && (
               <Alert severity="success">
                 Thanks for reaching out! Your message has been sent
@@ -188,6 +238,7 @@ function Contact() {
               </Alert>
             )}
 
+            {/* Error message */}
             {status === 'error' && (
               <Alert severity="error">
                 Something went wrong while sending your message.
@@ -195,6 +246,7 @@ function Contact() {
               </Alert>
             )}
 
+            {/* Submit button */}
             <Button
               type="submit"
               variant="contained"
