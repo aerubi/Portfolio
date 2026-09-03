@@ -128,21 +128,6 @@ function Contact() {
                 disabled={isSending}
                 fullWidth
                 autoComplete="name"
-                sx={{
-                  '& .MuiInputBase-input': {
-                    color: '#ffffff',
-                  },
-                  '& .MuiInputLabel-root': {
-                    color: '#ffffff',
-                  },
-                  '& .MuiInputLabel-root.Mui-focused': {
-                    color: '#ffffff',
-                  },
-                  '& .MuiInputBase-input::placeholder': {
-                    color: '#ffffff',
-                    opacity: 0.6,
-                  },
-                }}
               />
 
               {/* Email */}
@@ -172,21 +157,6 @@ function Contact() {
                 disabled={isSending}
                 fullWidth
                 autoComplete="email"
-                sx={{
-                  '& .MuiInputBase-input': {
-                    color: '#ffffff',
-                  },
-                  '& .MuiInputLabel-root': {
-                    color: '#ffffff',
-                  },
-                  '& .MuiInputLabel-root.Mui-focused': {
-                    color: '#ffffff',
-                  },
-                  '& .MuiInputBase-input::placeholder': {
-                    color: '#ffffff',
-                    opacity: 0.6,
-                  },
-                }}
               />
             </div>
 
@@ -213,21 +183,6 @@ function Contact() {
               }
               disabled={isSending}
               fullWidth
-              sx={{
-                '& .MuiInputBase-input': {
-                  color: '#ffffff',
-                },
-                '& .MuiInputLabel-root': {
-                  color: '#ffffff',
-                },
-                '& .MuiInputLabel-root.Mui-focused': {
-                  color: '#ffffff',
-                },
-                '& .MuiInputBase-input::placeholder': {
-                  color: '#ffffff',
-                  opacity: 0.6,
-                },
-              }}
             />
 
             {/* Success message */}
