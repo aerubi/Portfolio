@@ -18,7 +18,7 @@ function Project() {
             </div>
             <div className="project">
                 <a href="https://github.com/aerubi/cs465-fullstack" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/aerubi/cs465-fullstack" target="_blank" rel="noreferrer"><h2>Full-Stack Web Application — Travlr</h2></a>
+                <a href="https://github.com/aerubi/cs465-fullstack" target="_blank" rel="noreferrer"><h2>Full-Stack Web Application Travlr</h2></a>
                 <p>Built a full-stack web application with customer-facing and administrative functionality, including a single-page administrative interface backed by REST APIs and MongoDB.</p>
             </div>
             <div className="project">
