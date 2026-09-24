@@ -1,8 +1,9 @@
 import React from "react";
 import mock01 from '../assets/images/mock01.png';
-import mock06 from '../assets/images/mock06.png';
 import mock02 from '../assets/images/mock02.png';
+import mock03 from '../assets/images/mock06.png';
 import mock04 from '../assets/images/mock04.png';
+import mock06 from '../assets/images/mock06.png';
 import mock09 from '../assets/images/mock09.png';
 import '../assets/styles/Project.scss';
 
