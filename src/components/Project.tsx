@@ -32,6 +32,11 @@ function Project() {
                 <p>Built a Python client application for managing and querying MongoDB records with CRUD operations, filtering, validation, and structured database queries.</p>
             </div>
             <div className="project">
+                <a href="https://github.com/aerubi/AeroTradeSystem" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/aerubi/AeroTradeSystem" target="_blank" rel="noreferrer"><h2>Aero Trade System</h2></a>
+                <p>Aero Trade System, is a Minecraft 1.21.1 / NeoForge 21.1.250 mod that adds a persistent trading system for both villagers and players.</p>
+            </div>
+            <div className="project">
                 <a href="https://github.com/aerubi" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/aerubi" target="_blank" rel="noreferrer"><h2>Aero Pop</h2></a>
                 <p>Aero Pop, is a match-3 puzzle game that I am developing in Godot, implementing the core gameplay systems, board mechanics, scoring, combos, level progression, UI animations, and dynamic difficulty.</p>
