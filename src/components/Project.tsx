@@ -3,6 +3,7 @@ import mock01 from '../assets/images/mock01.png';
 import mock02 from '../assets/images/mock02.png';
 import mock03 from '../assets/images/mock03.png';
 import mock04 from '../assets/images/mock04.png';
+import mock05 from '../assets/images/mock05.png';
 import mock06 from '../assets/images/mock06.png';
 import mock09 from '../assets/images/mock09.png';
 import '../assets/styles/Project.scss';
@@ -36,6 +37,11 @@ function Project() {
                 <a href="https://github.com/aerubi/AeroTradeSystem" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/aerubi/AeroTradeSystem" target="_blank" rel="noreferrer"><h2>Aero Trade System</h2></a>
                 <p>Aero Trade System, is a Minecraft 1.21.1 / NeoForge 21.1.250 mod that adds a persistent trading system for both villagers and players.</p>
+            </div>
+            <div className="project">
+                <a href="https://github.com/aerubi/Battle_Arena" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/aerubi/Battle_Arena" target="_blank" rel="noreferrer"><h2>Battle Arena</h2></a>
+                <p>Battle Arena is a competitive-style arena shooter centered around skill, accuracy, reflexes, and situational awareness.</p>
             </div>
             <div className="project">
                 <a href="https://github.com/aerubi" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
